@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="htmlcss.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="hidden" id="login-form">
+        <input required maxlength ="15" type="text" placeholder="What is your name?"/>
+         <!-- input에 최대 글자 길이를 정하고 싶다면 required maxlength = "숫자"를 쓰면된다 -->
+         <input type="submit" value="log in" />
+        <!-- button대신에 input안에 type으로 submit을 넣음으로써 엔터를 쳐도 form이 submit 될 수 있게함 -->
+    </form>
+    <h2 id="clock"></h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <script src="chrome.js"></script>
+    <script src="clock.js"></script>
+</body>
+</html>
